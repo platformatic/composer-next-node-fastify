@@ -1,0 +1,20 @@
+{
+  "$schema": "https://schemas.platformatic.dev/wattpm/2.55.0.json",
+  "server": {
+    "hostname": "{PLT_SERVER_HOSTNAME}",
+    "port": 3042
+  },
+  "logger": {
+    "level": "info"
+  },
+  "entrypoint": "composer",
+  "autoload": {
+    "path": "web"
+  },
+  "basePath": "{PLT_BASE_PATH}",
+  "health": {
+    "enabled": false
+  },
+  "managementApi": true,
+  "workers": 1
+}

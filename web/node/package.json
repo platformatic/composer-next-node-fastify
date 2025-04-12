@@ -1,0 +1,6 @@
+{
+  "name": "node-service",
+  "dependencies": {
+    "@platformatic/node": "^2.58.0"
+  }
+}

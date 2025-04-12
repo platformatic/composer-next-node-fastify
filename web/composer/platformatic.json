@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schemas.platformatic.dev/@platformatic/composer/2.25.0.json",
+  "server": {
+    "healthCheck": true
+  },
+  "composer": {
+    "services": [
+      {
+        "id": "next",
+        "proxy": {
+          "prefix": "/next"
+        }
+      },
+      {
+        "id": "node",
+        "proxy": {
+          "prefix": "/node"
+        }
+      },
+      {
+        "id": "fastify",
+        "proxy": {
+          "prefix": "/fastify"
+        }
+      }
+    ],
+    "refreshTimeout": 1000
+  },
+  "watch": true
+}

@@ -1,0 +1,24 @@
+{
+  "name": "composer-next-node-fastify",
+  "private": true,
+  "scripts": {
+    "dev": "wattpm dev",
+    "build": "wattpm build",
+    "start": "wattpm start",
+    "start-big": "wattpm start -c watt-128.json"
+  },
+  "dependencies": {
+    "@platformatic/globals": "^2.58.0",
+    "@platformatic/next": "^2.58.0",
+    "@platformatic/node": "^2.58.0",
+    "@platformatic/runtime": "^2.58.0",
+    "wattpm": "^2.58.0"
+  },
+  "devDependencies": {
+    "platformatic": "^2.58.0"
+  },
+  "workspaces": [
+    "web/*",
+    "external/*"
+  ]
+}
