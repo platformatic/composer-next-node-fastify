@@ -16,5 +16,6 @@
     "enabled": false
   },
   "managementApi": true,
+  "metrics": true,
   "workers": 1
 }
